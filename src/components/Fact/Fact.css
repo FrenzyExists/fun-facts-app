@@ -1,0 +1,38 @@
+@import url(../../index.css);
+
+.fact-container {
+    margin: auto;
+    font-family: var(--regular-font);
+    color: var(--gui05);
+    padding: 1.325rem;
+}
+
+#topic {
+    font-size: 2.441rem;
+    font-family: var(--font1);
+    color: var(--gui0D);
+    margin-bottom: 1.325rem;
+    font-weight: 400;
+}
+
+.fact-list li {
+    line-height: 2.25rem;
+    font-size: 1.1rem;
+    list-style: none;
+    font-family: var(--font2);
+    color: var(--gui0D);
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    transition: ease-in-out 0.2s
+}
+
+.fact-list li:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.fact-list li img {
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}

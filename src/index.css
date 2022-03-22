@@ -7,8 +7,8 @@
     --gui09: #E8CCA7;
     --gui0D: #CDDBF9;
 
-    --main-font: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+    --font1: 'Manjari';
+    --font2: 'Mali', cursive;
 }
 
 body {
@@ -20,9 +20,17 @@ body {
     -moz-osx-font-smoothing: grayscale;
 
     background: var(--gui01);
-
 }
 
-code {
-    font-family: var(--main-font)
+.App-Head {
+    position: relative;
+    overflow: hidden;
+}
+
+svg.svg-boi {
+    position: fixed;
+    z-index: -1;
+    right: 3%;
+    bottom: 20%;
+    scale: 1.95;
 }

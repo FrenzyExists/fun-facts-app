@@ -8,14 +8,29 @@
     text-align: center;
     background: var(--gui00);
     color: var(--gui05);
-    font-family: var(--main-font)
+    font-family: var(--font2);
+}
+
+.footer p {
+    letter-spacing: 0.07rem;
 }
 
 .media-container {
     display: flex;
     text-align: center;
     justify-content: center;
+}
 
+.media svg:hover {
+    transform: scale(1.1);
+}
+
+.media svg {
+    transition: all .2s ease-in-out;
+}
+
+.media a {
+    display: contents;
 }
 
 .media-container svg {
@@ -26,4 +41,8 @@
     margin-right: 26px;
     margin-top: 30px;
     margin-bottom: 10px;
+}
+
+.fa-mug-hot {
+    color: var(--gui09);
 }
